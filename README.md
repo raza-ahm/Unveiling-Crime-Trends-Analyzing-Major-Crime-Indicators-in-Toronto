@@ -3,7 +3,7 @@
 <div align="center"> <h2>Introduction<h2> </div>
 
 ### Purpose
-The primary goal of this project is to educate Torontonians about the frequency, distribution, and nature of various crimes occurring in their neighborhoods in a simple and accessible way. By analyzing the Toronto Police Service's Major Crime Indicators Open Dataset, we aim to present the data in a format that is easy for everyone to understand.
+The primary goal of this project is to educate Torontonians about the frequency, distribution, and nature of various crimes occurring in their neighborhoods in a simple and accessible way. By analyzing the Toronto Police Service's Major Crime Indicators Open Dataset, I aim to present the data in a format that is easy for everyone to understand.
 
 This project is designed to spark meaningful discussions about how to improve public safety measures and empower residents to make informed decisions about their safety. By presenting clear, straightforward insights, I hope to enhance community awareness and engagement.
 
