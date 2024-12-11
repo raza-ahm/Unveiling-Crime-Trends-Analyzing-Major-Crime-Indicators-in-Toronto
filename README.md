@@ -7,6 +7,11 @@ The primary goal of this project is to educate Torontonians about the frequency,
 
 This project is designed to spark meaningful discussions about how to improve public safety measures and empower residents to make informed decisions about their safety. By presenting clear, straightforward insights, I hope to enhance community awareness and engagement.
 
+### Methodology
+The analysis will be conducted primarily using the Python programming language. Python will be utilized for preprocessing, cleaning, exploring, and analyzing the dataset, providing comprehensive insights throughout the process. The steps involved in this analysis will be documented and executed within Jupyter notebooks, ensuring a clear and detailed breakdown of each phase.
+
+Upon completion of the analysis, a Tableau dashboard will be created and shared. This dashboard will offer users an interactive platform to explore the dataset further, enabling deeper insights and engagement with the data. 
+
 ### Overview of the Dataset
 #### Link to original dataset: https://data.torontopolice.on.ca/datasets/TorontoPS::major-crime-indicators-open-data/about
 
@@ -20,6 +25,8 @@ This dataset records occurrences of Major Crime Indicators (MCI) by reported dat
 
 As of the time of writing, the dataset includes MCI records up to the third quarter of 2024.
 
-### Data Preprocessing and Cleaning
+### 1) Data Preprocessing and Cleaning:
+
+
 
 
