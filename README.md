@@ -23,6 +23,8 @@ Some data may be excluded for legal, privacy, security, and confidentiality reas
 #### Description:
 This dataset records occurrences of Major Crime Indicators (MCI) by reported date and related offenses. The MCI categories include Assault, Break and Enter, Auto Theft, Robbery, and Theft Over $5000 CAD (excluding Auto Theft). It does not include incidents that were deemed unfounded or did not occur after police investigation.
 
+Even though the dataset includes incidents that occurred before the year 2000, I am removing those incidents. My reasoning is that analyzing 24 years of incidents (2000 - 2024) is more than sufficient for educating everyday Torontonians in a simple and accessible manner about the nature of various crimes occurring in their neighborhoods. This period provides a substantial and relevant dataset that captures recent trends and patterns in crime, ensuring the analysis remains current and useful for community discussions and safety measures.
+
 As of the time of writing, the dataset includes MCI records up to the third quarter of 2024.
 
 ### 1) Data Preprocessing and Cleaning:
