@@ -1,7 +1,5 @@
 # Unveiling Crime Trends: Analyzing Major Crime Indicators in Toronto
 
-<div align="center"> <h2>Introduction<h2> </div>
-
 ### Purpose
 The goal of this project is to educate Torontonians about crime in their neighborhoods using the Toronto Police Service's Major Crime Indicators Open Dataset. By presenting the data in a simple and accessible way, I aim to spark discussions on public safety and help residents make informed decisions.
 
