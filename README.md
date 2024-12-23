@@ -3,9 +3,7 @@
 <div align="center"> <h2>Introduction<h2> </div>
 
 ### Purpose
-The primary goal of this project is to educate Torontonians about the frequency, distribution, and nature of various crimes occurring in their neighborhoods in a simple and accessible way. By analyzing the Toronto Police Service's Major Crime Indicators Open Dataset, I aim to present the data in a format that is easy for everyone to understand.
-
-This project is designed to spark meaningful discussions about how to improve public safety measures and empower residents to make informed decisions about their safety. By presenting clear, straightforward insights, I hope to enhance community awareness and engagement.
+The goal of this project is to educate Torontonians about crime in their neighborhoods using the Toronto Police Service's Major Crime Indicators Open Dataset. By presenting the data in a simple and accessible way, I aim to spark discussions on public safety and help residents make informed decisions.
 
 ### Methodology
 The analysis will be conducted primarily using the Python programming language. Python will be utilized for preprocessing, cleaning, exploring, and analyzing the dataset, providing comprehensive insights throughout the process. The steps involved in this analysis will be documented and executed within Jupyter notebooks, ensuring a clear and detailed breakdown of each phase.
@@ -26,6 +24,7 @@ This dataset records occurrences of Major Crime Indicators (MCI) by reported dat
 Even though the dataset includes incidents that occurred before the year 2000, I am removing those incidents. My reasoning is that analyzing 24 years of incidents (2000 - 2024) is more than sufficient for educating everyday Torontonians in a simple and accessible manner about the nature of various crimes occurring in their neighborhoods. This period provides a substantial and relevant dataset that captures recent trends and patterns in crime, ensuring the analysis remains current and useful for community discussions and safety measures.
 
 As of the time of writing, the dataset includes MCI records up to the third quarter of 2024.
+
 
 ### 1) Data Preprocessing and Cleaning:
 
