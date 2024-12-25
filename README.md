@@ -38,19 +38,21 @@ During the preprocessing and cleaning phase, the following adjustments were made
 - Converted date columns (REPORT_DATE, OCC_DATE) to date formats.
 - Changed several columns to appropriate data types, e.g., categorical (REPORT_MONTH, REPORT_DOW, etc.) and integer (OCC_YEAR, OCC_DAY, etc.), to optimize performance.
 
-**3)Handling Missing and Incorrect Values:**
+**3) Handling Missing and Incorrect Values:**
 
 - Removed rows with null values in key columns (e.g., OCC_DATE) after determining they represented outdated incidents (pre-2000).
 - Retained rows with "NSA" placeholders (indicating incidents near Toronto's borders) for relevant geographic analyses.
 - Updated all instances of Division 54 (D54) to Division 55 (D55) to reflect the consolidation of divisions, adjusting corresponding null values in AREA_SQKM.
   
-**4)Dataset Integration:**:
+**4) Dataset Integration:**:
 
 - Merged the Major Crime Indicators dataset with a supplementary dataset on police divisions to include division sizes (AREA_SQKM).
 - Cleaned and standardized the merged dataset for consistency.
 
-**5)Export for Analysis:**
+**5) Export for Analysis:**
 
 - The cleaned dataset was exported as Major_Crime_Indicators_Completed.csv for further analysis.
+
+  
 
 
