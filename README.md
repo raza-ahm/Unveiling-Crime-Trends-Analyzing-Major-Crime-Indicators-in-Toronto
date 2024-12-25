@@ -24,8 +24,33 @@ Even though the dataset includes incidents that occurred before the year 2000, I
 As of the time of writing, the dataset includes MCI records up to the third quarter of 2024.
 
 
-### 1) Data Preprocessing and Cleaning:
+## 1) Data Preprocessing and Cleaning:
 
+During the preprocessing and cleaning phase, the following adjustments were made to prepare the dataset for analysis:
 
+**1) Column Adjustments:**
+
+- Removed irrelevant columns, such as OBJECTID, UCR_CODE, UCR_EXT, HOOD_140, NEIGHBOURHOOD_140, and projected coordinate system columns (x, y).
+- Standardized geographic identifiers by removing old neighborhood identifiers and retaining WGS84 coordinate columns for visualization.
+  
+**2) Data Type Conversions:**
+
+- Converted date columns (REPORT_DATE, OCC_DATE) to date formats.
+- Changed several columns to appropriate data types, e.g., categorical (REPORT_MONTH, REPORT_DOW, etc.) and integer (OCC_YEAR, OCC_DAY, etc.), to optimize performance.
+
+**3)Handling Missing and Incorrect Values:**
+
+- Removed rows with null values in key columns (e.g., OCC_DATE) after determining they represented outdated incidents (pre-2000).
+- Retained rows with "NSA" placeholders (indicating incidents near Toronto's borders) for relevant geographic analyses.
+- Updated all instances of Division 54 (D54) to Division 55 (D55) to reflect the consolidation of divisions, adjusting corresponding null values in AREA_SQKM.
+  
+**4)Dataset Integration:**:
+
+- Merged the Major Crime Indicators dataset with a supplementary dataset on police divisions to include division sizes (AREA_SQKM).
+- Cleaned and standardized the merged dataset for consistency.
+
+**5)Export for Analysis:**
+
+- The cleaned dataset was exported as Major_Crime_Indicators_Completed.csv for further analysis.
 
 
