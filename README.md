@@ -24,7 +24,9 @@ Even though the dataset includes incidents that occurred before the year 2000, I
 As of the time of writing, the dataset includes MCI records up to the third quarter of 2024.
 
 
-## 1) Data Preprocessing and Cleaning:
+## 1) Data Preprocessing and Cleaning
+
+### Data Preprocessing and Cleaning Summary
 
 During the preprocessing and cleaning phase, the following adjustments were made to prepare the dataset for analysis:
 
@@ -52,6 +54,18 @@ During the preprocessing and cleaning phase, the following adjustments were made
 **5) Export for Analysis:**
 
 - The cleaned dataset was exported as Major_Crime_Indicators_Completed.csv for further analysis.
+
+### Sample of the Cleaned Dataset
+
+Below is a preview of the cleaned dataset after the preprocessing and cleaning steps:
+
+| REPORT_DATE         | OCC_DATE            |   REPORT_YEAR | REPORT_MONTH   |   REPORT_DAY |   REPORT_DOY | REPORT_DOW   |   REPORT_HOUR |   OCC_YEAR | OCC_MONTH   |   OCC_DAY |   OCC_DOY | OCC_DOW   |   OCC_HOUR | DIVISION   | LOCATION_TYPE                                       | PREMISES_TYPE   | OFFENCE             | MCI_CATEGORY   |   HOOD_158 | NEIGHBOURHOOD_158            |   LONG_WGS84 |   LAT_WGS84 |   AREA_SQKM |
+|:--------------------|:--------------------|--------------:|:---------------|-------------:|-------------:|:-------------|--------------:|-----------:|:------------|----------:|----------:|:----------|-----------:|:-----------|:----------------------------------------------------|:----------------|:--------------------|:---------------|-----------:|:-----------------------------|-------------:|------------:|------------:|
+| 2014-01-01 00:00:00 | 2014-01-01 00:00:00 |          2014 | January        |            1 |            1 | Wednesday    |             9 |       2014 | January     |         1 |         1 | Wednesday |          9 | D55        | Apartment (Rooming House, Condo)                    | Apartment       | Assault             | Assault        |        069 | Blake-Jones (69)             |     -79.3381 |     43.6751 |     41.034  |
+| 2014-01-01 00:00:00 | 2013-12-31 00:00:00 |          2014 | January        |            1 |            1 | Wednesday    |             2 |       2013 | December    |        31 |       365 | Tuesday   |         22 | D42        | Single Home, House (Attach Garage, Cottage, Mobile) | House           | Assault             | Assault        |        144 | Morningside Heights (144)    |     -79.1804 |     43.8063 |     84.6117 |
+| 2014-01-01 00:00:00 | 2014-01-01 00:00:00 |          2014 | January        |            1 |            1 | Wednesday    |             1 |       2014 | January     |         1 |         1 | Wednesday |          1 | D14        | Bar / Restaurant                                    | Commercial      | Assault Bodily Harm | Assault        |        084 | Little Portugal (84)         |     -79.4271 |     43.6425 |     14.1753 |
+| 2014-01-01 00:00:00 | 2014-01-01 00:00:00 |          2014 | January        |            1 |            1 | Wednesday    |             2 |       2014 | January     |         1 |         1 | Wednesday |          2 | D14        | Apartment (Rooming House, Condo)                    | Apartment       | Assault             | Assault        |        080 | Palmerston-Little Italy (80) |     -79.4156 |     43.6549 |     14.1753 |
+| 2014-01-01 00:00:00 | 2014-01-01 00:00:00 |          2014 | January        |            1 |            1 | Wednesday    |             5 |       2014 | January     |         1 |         1 | Wednesday |          2 | D14        | Bar / Restaurant                                    | Commercial      | Assault             | Assault        |        081 | Trinity-Bellwoods (81)       |     -79.4167 |     43.6551 |     14.1753 |
 
   
 
