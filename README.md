@@ -1,7 +1,7 @@
 # Unveiling Crime Trends: Analyzing Major Crime Indicators in Toronto
 
 ## Purpose
-The goal of this project is to educate Torontonians about crime in their neighborhoods using the Toronto Police Service's Major Crime Indicators Open Dataset. By presenting the data in a simple and accessible way, I aim to spark discussions on public safety and help residents make informed decisions.
+The goal of this project is to educate Torontonians about crime in their neighborhoods using the Toronto Police Service's Major Crime Indicators Open Dataset. By presenting data insights in a simple and accessible way, I aim to spark discussions on public safety and help residents make informed decisions.
 
 ## Methodology
 The analysis will be conducted primarily using the Python programming language. Python will be utilized for preprocessing, cleaning, exploring, and analyzing the dataset, providing comprehensive insights throughout the process. The steps involved in this analysis will be documented and executed within Jupyter notebooks, ensuring a clear and detailed breakdown of each phase.
