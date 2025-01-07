@@ -23,8 +23,9 @@ Even though the dataset includes incidents that occurred before the year 2000, I
 
 As of the time of writing, the dataset includes MCI records up to the third quarter of 2024.
 
+## Analytical Process
 
-## 1) Data Preprocessing and Cleaning
+### <ins>1) Data Preprocessing and Cleaning:</ins>
 
 During the preprocessing and cleaning phase, the following adjustments were made to prepare the dataset for analysis:
 
@@ -53,7 +54,7 @@ During the preprocessing and cleaning phase, the following adjustments were made
 
 - The cleaned dataset was exported as Major_Crime_Indicators_Completed.csv for further analysis.
 
-### Sample of the Cleaned Dataset
+#### Sample of the Cleaned Dataset
 
 Below is a preview of the cleaned dataset after the preprocessing and cleaning steps:
 
@@ -65,6 +66,6 @@ Below is a preview of the cleaned dataset after the preprocessing and cleaning s
 | GO-20141260597    | 2014-01-01 00:00:00 | 2014-01-01 00:00:00 |          2014 | January        |            1 |            1 | Wednesday    |             2 |       2014 | January     |         1 |         1 | Wednesday |          2 | D14        | Apartment (Rooming House, Condo)                    | Apartment       | Assault             | Assault        |        080 | Palmerston-Little Italy (80) |     -79.4156 |     43.6549 |     14.1753 |
 | GO-20141260618    | 2014-01-01 00:00:00 | 2014-01-01 00:00:00 |          2014 | January        |            1 |            1 | Wednesday    |             5 |       2014 | January     |         1 |         1 | Wednesday |          2 | D14        | Bar / Restaurant                                    | Commercial      | Assault             | Assault        |        081 | Trinity-Bellwoods (81)       |     -79.4167 |     43.6551 |     14.1753 |Bellwoods (81)       |     -79.4167 |     43.6551 |     14.1753 |
 
-### Data Preprocessing and Cleaning Notebook
+#### Data Preprocessing and Cleaning Notebook
 
-For a detailed walkthrough of the preprocessing and cleaning steps, including the Python code and commentary, refer to the [Data Preprocessing and Cleaning Jupyter Notebook](Dataset-Folder-CSV/Major_Crime_Indicators_Completed.csv.zip)
+For a detailed walkthrough of the preprocessing and cleaning steps, including the Python code and commentary, refer to the [Data Preprocessing and Cleaning Jupyter Notebook](Unveiling-Crime-Trends-Analyzing-Major-Crime-Indicators-in-Toronto/Data%20Preprocessing%20and%20Cleaning.ipynb)
