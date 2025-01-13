@@ -23,9 +23,7 @@ Even though the dataset includes incidents that occurred before the year 2000, I
 
 As of the time of writing, the dataset includes MCI records up to the third quarter of 2024.
 
-## Analytical Process
-
-### <ins>1) Data Preprocessing and Cleaning:</ins>
+## Data Preprocessing and Cleaning:</ins>
 
 During the preprocessing and cleaning phase, the following adjustments were made to prepare the dataset for analysis:
 
